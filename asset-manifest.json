@@ -1,7 +1,16 @@
 {
-  "main.js": "static/js/main.c3b90a3c.js",
-  "main.js.map": "static/js/main.c3b90a3c.js.map",
-  "static/media/photo-box.png": "static/media/photo-box.8e1be60f.png",
-  "static/media/poloroid_frame-trans.png": "static/media/poloroid_frame-trans.7c86b187.png",
-  "static/media/poloroid_frame.jpg": "static/media/poloroid_frame.a6fe14df.jpg"
+  "files": {
+    "main.js": "/fewd-project-11/static/js/main.114bf81c.chunk.js",
+    "main.js.map": "/fewd-project-11/static/js/main.114bf81c.chunk.js.map",
+    "runtime~main.js": "/fewd-project-11/static/js/runtime~main.2ded48d4.js",
+    "runtime~main.js.map": "/fewd-project-11/static/js/runtime~main.2ded48d4.js.map",
+    "static/js/2.86331e61.chunk.js": "/fewd-project-11/static/js/2.86331e61.chunk.js",
+    "static/js/2.86331e61.chunk.js.map": "/fewd-project-11/static/js/2.86331e61.chunk.js.map",
+    "index.html": "/fewd-project-11/index.html",
+    "precache-manifest.79c689d58195580366ef773cabd33045.js": "/fewd-project-11/precache-manifest.79c689d58195580366ef773cabd33045.js",
+    "service-worker.js": "/fewd-project-11/service-worker.js",
+    "static/media/photo-box.png": "/fewd-project-11/static/media/photo-box.8e1be60f.png",
+    "static/media/poloroid_frame-trans.png": "/fewd-project-11/static/media/poloroid_frame-trans.7c86b187.png",
+    "static/media/poloroid_frame.jpg": "/fewd-project-11/static/media/poloroid_frame.a6fe14df.jpg"
+  }
 }
