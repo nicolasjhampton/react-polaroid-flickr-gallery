@@ -52,15 +52,12 @@ const callAPI = props => {
 };
 
 class Gallery extends Component {
-    constructor(props) {
-        super(props);
-        this.handleScroll = this.handleScroll.bind(this);
-        this.state = { images: [] };
-    }
+
+    state = { images: [] }
 
     componentDidMount() {
         callAPI(this.props).then(images => this.setState({ images }));
-        window.addEventListener("scroll", this.handleScroll.bind(this));
+        // window.addEventListener("scroll", this.handleScroll.bind(this));
     }
 
     componentWillReceiveProps(nextProps) {
@@ -69,24 +66,18 @@ class Gallery extends Component {
         }
     }
 
-    handleScroll(event) {
-        let gallery =
-            event.srcElement.body.children.root.children.page.children.gallery;
-        let scrollTop = gallery.scrollTop;
-        //     itemTranslate = Math.min(0, scrollTop / 3 - 60);
-        console.log(scrollTop);
-        console.log(window.scrollY);
-        if (scrollTop - window.scrollY < 30) {
-            console.log(this.props);
-            debugger;
-            callAPI(this.props).then(images =>
-                this.setState({ images: [...this.state.images, ...images] })
-            );
-        }
-        // this.setState({
-        //     transform: itemTranslate
-        // });
-    }
+    // handleScroll = (event) => {
+    //     let gallery =
+    //         event.srcElement.body.children.root.children.page.children.gallery;
+    //     let scrollTop = gallery.scrollTop;
+    //     if (scrollTop - window.scrollY < 30) {
+    //         console.log(this.props);
+    //         debugger;
+    //         callAPI(this.props).then(images =>
+    //             this.setState({ images: [...this.state.images, ...images] })
+    //         );
+    //     }
+    // }
 
     render() {
         const Div = styled.div`
