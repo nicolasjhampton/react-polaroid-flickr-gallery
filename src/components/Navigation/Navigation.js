@@ -33,13 +33,13 @@ class Navigation extends Component {
         `;
         return (
             <Div>
-                <GalleryNavLink activeStyle={{ color: "red" }} to="/sunsets">
+                <GalleryNavLink activeStyle={{ color: "red" }} to="/fewd-project-11/sunsets">
                     Sunsets
                 </GalleryNavLink>
-                <GalleryNavLink activeStyle={{ color: "red" }} to="/balloons">
+                <GalleryNavLink activeStyle={{ color: "red" }} to="/fewd-project-11/balloons">
                     Balloons
                 </GalleryNavLink>
-                <GalleryNavLink activeStyle={{ color: "red" }} to="/puppies">
+                <GalleryNavLink activeStyle={{ color: "red" }} to="/fewd-project-11/puppies">
                     Puppies
                 </GalleryNavLink>
             </Div>
