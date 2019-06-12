@@ -33,8 +33,8 @@ class App extends Component {
                         <Route component={Navigation} />
                     </Header>
                     <Switch>
-                        <Route path="/:search" component={Gallery} />
-                        <Redirect to="/treehouse" />
+                        <Route path="/fewd-project-11/:search" component={Gallery} />
+                        <Redirect to="/fewd-project-11/treehouse" />
                     </Switch>
                 </Div>
             </BrowserRouter>
