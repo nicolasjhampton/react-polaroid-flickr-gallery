@@ -5,7 +5,7 @@ class Search extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        this.props.history.push(`/fewd-project-11/${event.target.children.search.value}`);
+        this.props.history.push(`/react-polaroid-flickr-gallery/${event.target.children.search.value}`);
     }
 
     render() {

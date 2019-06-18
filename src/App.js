@@ -33,8 +33,8 @@ class App extends Component {
                         <Route component={Navigation} />
                     </Header>
                     <Switch>
-                        <Route path="/fewd-project-11/:search" component={Gallery} />
-                        <Redirect to="/fewd-project-11/treehouse" />
+                        <Route path="/react-polaroid-flickr-gallery/:search" component={Gallery} />
+                        <Redirect to="/react-polaroid-flickr-gallery/treehouse" />
                     </Switch>
                 </Div>
             </BrowserRouter>
