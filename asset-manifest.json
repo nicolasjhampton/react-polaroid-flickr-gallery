@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/fewd-project-11/static/js/main.114bf81c.chunk.js",
-    "main.js.map": "/fewd-project-11/static/js/main.114bf81c.chunk.js.map",
-    "runtime~main.js": "/fewd-project-11/static/js/runtime~main.2ded48d4.js",
-    "runtime~main.js.map": "/fewd-project-11/static/js/runtime~main.2ded48d4.js.map",
-    "static/js/2.86331e61.chunk.js": "/fewd-project-11/static/js/2.86331e61.chunk.js",
-    "static/js/2.86331e61.chunk.js.map": "/fewd-project-11/static/js/2.86331e61.chunk.js.map",
-    "index.html": "/fewd-project-11/index.html",
-    "precache-manifest.79c689d58195580366ef773cabd33045.js": "/fewd-project-11/precache-manifest.79c689d58195580366ef773cabd33045.js",
-    "service-worker.js": "/fewd-project-11/service-worker.js",
-    "static/media/photo-box.png": "/fewd-project-11/static/media/photo-box.8e1be60f.png",
-    "static/media/poloroid_frame-trans.png": "/fewd-project-11/static/media/poloroid_frame-trans.7c86b187.png",
-    "static/media/poloroid_frame.jpg": "/fewd-project-11/static/media/poloroid_frame.a6fe14df.jpg"
+    "main.js": "/react-polaroid-flickr-gallery/static/js/main.132e5145.chunk.js",
+    "main.js.map": "/react-polaroid-flickr-gallery/static/js/main.132e5145.chunk.js.map",
+    "runtime~main.js": "/react-polaroid-flickr-gallery/static/js/runtime~main.1b886310.js",
+    "runtime~main.js.map": "/react-polaroid-flickr-gallery/static/js/runtime~main.1b886310.js.map",
+    "static/js/2.fb4ec028.chunk.js": "/react-polaroid-flickr-gallery/static/js/2.fb4ec028.chunk.js",
+    "static/js/2.fb4ec028.chunk.js.map": "/react-polaroid-flickr-gallery/static/js/2.fb4ec028.chunk.js.map",
+    "index.html": "/react-polaroid-flickr-gallery/index.html",
+    "precache-manifest.bc4fc16287efb240dcba5531666c4ba3.js": "/react-polaroid-flickr-gallery/precache-manifest.bc4fc16287efb240dcba5531666c4ba3.js",
+    "service-worker.js": "/react-polaroid-flickr-gallery/service-worker.js",
+    "static/media/photo-box.png": "/react-polaroid-flickr-gallery/static/media/photo-box.8e1be60f.png",
+    "static/media/poloroid_frame-trans.png": "/react-polaroid-flickr-gallery/static/media/poloroid_frame-trans.7c86b187.png",
+    "static/media/poloroid_frame.jpg": "/react-polaroid-flickr-gallery/static/media/poloroid_frame.a6fe14df.jpg"
   }
 }
